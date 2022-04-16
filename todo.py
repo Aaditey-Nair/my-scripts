@@ -1,5 +1,5 @@
 import sys
-PATH_TO_TODO_FILE = "/home/aadi/todo_file.txt"
+PATH_TO_TODO_FILE = "/home/user/todo_file.txt"
 
 try:
     with open(PATH_TO_TODO_FILE) as todo_file:
