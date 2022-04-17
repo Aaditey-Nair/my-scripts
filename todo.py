@@ -7,7 +7,7 @@ try:
         todo_items = [line for line in lines if not line.startswith("[DONE]")]
         done_items = [line for line in lines if line not in todo_items]
 except FileNotFoundError:
-    with open("todo_file.txt", "w") as todo_file:
+    with open(PATH_TO_TODO_FILE, "w") as todo_file:
         todo_items = []
         done_items = []
 
