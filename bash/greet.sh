@@ -6,7 +6,7 @@ whereami=$(pwd)
 publicipaddress=$(curl -s ifconfig.me | tac | tac | tr -d '%')
 privateipaddress=$(hostname -I)
 
-city="trivandrum"
+city="YOUR CITY NAME"
 weather=$(curl -s wttr.in/${city} | tac | tac | head -7 | tail -6)
 
 h=$(date +"%H")
