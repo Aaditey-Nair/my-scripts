@@ -10,8 +10,8 @@ A CLI based todo app, complete with add, delete, finish and clear features. Run 
 
 mkflask.sh
 </br>
-Sets up a Flask project. Automatically creates the usual directories and adds some basic code for a minimal setup. Works only on windows. For Mac and Linux, inside the mkflash.sh, change line number 5 to ```source venv/bin/activate```.
+Sets up a Flask project. Automatically creates the usual directories and adds some basic code for a minimal setup. Works only on windows. For Mac and Linux, inside the mkflash.sh, change line number 5 to </br> ```source venv/bin/activate```.
 
 mkscript.sh
 </br>
-Automating automation. Creates a shell script with the name you supply as a param, i.e. ```./mkscript.sh <file_name_no_extention>``` and makes it an excecutable. Adds a simple ```echo``` statement and opens it in the nano text editor. By default looks for a zsh shell in ```#!/usr/bin/zsh```.
+Automating automation. Creates a shell script with the name you supply as a param, i.e. </br> ```./mkscript.sh <file_name_no_extention>``` and makes it an excecutable. Adds a simple ```echo``` statement and opens it in the nano text editor. By default looks for a zsh shell in ```#!/usr/bin/zsh```.
