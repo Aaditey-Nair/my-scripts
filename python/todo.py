@@ -61,10 +61,10 @@ elif args[-1] == "del":
 elif args[-1] == "stats":
     print_stats()
 elif args[-1] == "clear":
-    done_items = []
+    done_items.clear()
 elif args[-1] == "destroy":
-    todo_items = []
-    done_items = []
+    todo_items.clear()
+    done_items.clear()
 elif args[-1] == "help":
     print("""
     Welcome to the CLI ToDo App. Manage all you todos right from the command line.
