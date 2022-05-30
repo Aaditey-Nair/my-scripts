@@ -15,3 +15,7 @@ Sets up a Flask project. Automatically creates the usual directories and adds so
 mkscript.sh
 </br>
 Automating automation. Creates a shell script with the name you supply as a param, i.e. </br> ```./mkscript.sh <file_name_no_extention>``` and makes it an excecutable. Adds a simple ```echo``` statement and opens it in the nano text editor. By default looks for a zsh shell in ```#!/usr/bin/zsh```.
+
+organize-downloads.py
+</br>
+Organize the clutter in you downloads folder by creating subfolders based on file types. 
