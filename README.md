@@ -18,4 +18,4 @@ Automating automation. Creates a shell script with the name you supply as a para
 
 organize-downloads.py
 </br>
-Organize the clutter in you downloads folder by creating subfolders based on file types. 
+Organize the clutter in you downloads folder by creating subfolders based on file types. Only on Windows, Linux and MacOS. Only effects files. Folders and file extensions which are not supported are ignored. Change the ```PATH_TO_FILES``` varibles to point to your Downloads folder.
