@@ -2,7 +2,7 @@ This github repo contains all my scripts. The scripts are written in Python and 
 
 greet.sh
 </br>
-A fun little script which greets you and gives the current user, directory, time, public and private ip address and weather in your city. Change the location variable to your city of choice
+A fun little script which greets you and gives the current user, directory, time, public and private ip address and weather in your city. The default greeting will contain you current user name.
 
 todo.py
 </br>
